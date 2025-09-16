@@ -29,3 +29,18 @@ This prototype shows how LLMs can assist customer support teams in:
 - Serving international audiences with translations
 - Answering product-specific queries
 - Condensing long customer feedback into digestible insights
+
+## Run the project:
+```
+# Clone repo
+git clone https://github.com/<your-username>/<car_review_chatbot>.git
+cd <car_review_chatbot>
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate    # macOS/Linux
+venv\Scripts\activate       # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
